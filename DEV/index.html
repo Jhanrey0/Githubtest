@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>My Portfolio</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+</head>
+<body>
+	<section class="header" > 
+		<nav>
+			<a href="index.html"><img src="delirium lab.gif" alt="Logo"></a>
+			<div class="nav-links" id="navlinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="">HOME</a></li>
+					<li><a href="">ABOUT</a></li>
+					<li><a href="">COURSE</a></li>
+					<li><a href="">FEEDBACK</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+
+	<div class="text-box">
+		<h1>MY PORTFOLIO</h1>
+		<p>vjsabvi dgviysdg ciusdhgcuc usd hdsuchc hsdvh vhsduo <br>vihsd idshvisd dvbusdhvb vnsdv sdsfdvsdvfs dsvsdv sdvv svsdvvfdv
+		</p>
+		<a href="" class="hero-btn" >Click to know more</a>
+	</div>	
+	</section>
+	<script>
+		var navlinks = document.getElementById("navlinks");
+		function showMenu(){
+			navlinks.style.right = "0px";
+		}
+		function hideMenu(){
+			navlinks.style.right = "-200px";
+		}
+	</script>
+</body>
+</html>
