@@ -1,2 +1,5 @@
-# Githubtest
-try
+- 👋 Hi, I’m @Jhanrey
+- 👀 I’m interested in web developing
+- 🌱 I’m currently learning frontend
+- 💞️ I’m looking to collaborate on ...
+- 📫 How to reach me @jhanreyllona0@gmail.com/ (https://www.facebook.com/jhanrey.espiritu/)
